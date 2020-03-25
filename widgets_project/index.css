@@ -1,0 +1,111 @@
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    text-shadow: -3px 3px rgb(111, 0, 255);
+}
+.box > h1 {
+    display: block;
+    padding-left: 40%;
+}
+.box:hover > h1 {
+    padding-left: 35%;
+    font-size: 50px;
+}
+
+.box {
+    display: block;
+    background-image: url(https://i.ytimg.com/vi/m6I6I_kz3p0/maxresdefault.jpg);
+    background-size: 1000px 600px;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 600px;
+}
+
+.boxy {
+    display: block;
+    /* background-image: url(https://cdn.shopify.com/s/files/1/1673/0883/products/Rascal_Does_Not_Dream_of_Bunny_Girl_Senpai_Mai_Sakurajima_Cosplay_Wig_1_1800x.jpg?v=1571611496); */
+    /* background-size: 500px 500px; */
+    width: 80%;
+    height: 80%;
+}
+
+.boxy h1{
+    padding-left: 40%;
+    font-size: 35px;
+}
+
+.boxy:hover > h1 {
+    padding-left: 35%;
+    font-size: 50px;
+}
+
+
+.time, .date {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    font-family: 'Lobster', cursive;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(65, 225, 217);
+    text-shadow: -3px 3px black;
+    
+}
+
+.time:hover {
+    font-family: Brushstroke, fantasy;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    color: rgb(235, 14, 32);
+}
+
+.date:hover {
+    font-family: Oldtown, fantasy;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    color: rgb(65, 225, 65);
+}
+
+.lies {
+    display: block;
+    /* background-image: url(https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/lie-april-background-11.jpg?fit=1920%2C1080); */
+    background-size: 800px 500px;
+    width: 80%;
+    height: 80%;
+}
+
+.bolded {
+    font-weight: bold;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+li {
+    font-size: 25px;
+    color: mediumorchid
+    cursor: pointer;
+    list-style: none;
+    font-family: 'Pattaya', sans-serif;
+    text-shadow: -2px 2px black;
+}
+
+
+article {
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
